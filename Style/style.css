@@ -9,6 +9,12 @@
 
 }
 
+.menubar{
+    display: inline-block;
+    margin-right:  80px;
+}
+
+
 #subhead {
     font-family: Lato, sans-serif;
     color: white;
@@ -40,10 +46,6 @@ ul {
 
 }
 
-nav li{
-    display: inline-block;
-    margin-left:  70px;
-}
 
 .container1{
     margin-right: 30px ;

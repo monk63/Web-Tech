@@ -1,8 +1,8 @@
 
 
 #heading {
-    font-family: Lato, sans-serif !important;
-    color: #a0a0a0;
+    font-family: Lato;
+    color: lightgray;
     font-size: 22.5pt;
     font-weight: 400;
     
@@ -10,7 +10,7 @@
 }
 
 #subhead {
-    font-family: Lato, sans-serif;
+    font-family: Lato;
     color: white;
     font-size: 15pt;
     font-weight: 400;

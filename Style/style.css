@@ -17,13 +17,10 @@
 
 }
 
-.footer {
-    font-family: Lato, sans-serif;
-    color: #fff;
-    font-size: 10.5pt;
+footer {
+   
+    padding-left: 200px;
     
-    margin-left: 25%;
-    margin-right: 25%;
 
 
 }

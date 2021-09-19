@@ -5,6 +5,7 @@
     color: #a0a0a0;
     font-size: 22.5pt;
     font-weight: 400;
+    
 
 }
 
@@ -36,6 +37,40 @@ ul {
 .link1 { 
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: start;
 
+    
+
+}
+
+.container1{
+    margin-right: 30px ;
+
+}
+
+.link2 { 
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+
+}
+
+.container2{
+    margin-right: 30px ;
+
+}
+
+.link3 { 
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+
+    
+
+}
+
+
+.container3{
+    margin-right: 30px;
 }

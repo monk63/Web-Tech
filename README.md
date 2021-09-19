@@ -1,4 +1,1 @@
-# Web-Tech
-
-
-http://127.0.0.1:5500/news.html 
+https://www.ashesi.edu.gh/stories-and-events/stories/3905-setting-a-global-standard-for-leadership-in-action-read-ashesi-s-2020-annual-report.html

@@ -44,6 +44,11 @@ ul {
 
 }
 
+nav li{
+    display: inline-block;
+    margin-left:  70px;
+}
+
 .container1{
     margin-right: 30px ;
 

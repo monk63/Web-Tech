@@ -23,7 +23,11 @@
 
 }
 
-footer {
+.footer {
+    font-family: Lato, sans-serif;
+    background-color: #a0a0a0;
+    color: #fff;
+    font-size: 10.5pt;
    
     padding-left: 200px;
     

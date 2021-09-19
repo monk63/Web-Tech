@@ -11,8 +11,14 @@
 
 .menubar{
     display: inline-block;
-    
     padding-left: 200px;
+    padding-block: 15px;
+}
+
+.menubar2{
+    padding-left: 200px;
+    padding-block: 15px;
+    
 }
 
 

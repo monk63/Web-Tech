@@ -1,8 +1,9 @@
 *{
 
     border: auto;
-    margin: 0px;
+    margin: 0;
     max-width: 100%;
+    padding: 0;
 }
 
 #heading {
@@ -12,6 +13,9 @@
     font-weight: 400;
     
 
+}
+.main{
+    width: 100%;
 }
 
 .menubar{

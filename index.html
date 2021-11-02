@@ -4,230 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Ashesi</title>
+    <link rel="stylesheet" href="./style.css">
+    
+    <title>Form Validator</title>
 </head>
-
 <body>
-    <nav>
+    <div class="container">
+        <form id="form" class="form">
 
-        <div style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+            <h2>Register With Us</h2>
+            <div class="form-control">
 
-            <img height="30" width="auto" src="https://www.ashesi.edu.gh/images/logo-mobile_colored.png">
+                <label for="username">Username</label>
+                <input type="text" placeholder="Enter Username" id="username">
 
-            <!-- Buttons -->
-
-            <a href="https://www.ashesi.edu.gh/" style="color: white; text-decoration: none; background-color: transparent;"> Home</a>
-            &nbsp;
-
-            <a href="https://www.ashesi.edu.gh/about.html"> About </a> 
-            &nbsp;
-
-            <a href="https://www.ashesi.edu.gh/admissions/welcome.html"> Admissions </a>
-            &nbsp;
-
-            <a href="https://www.ashesi.edu.gh/campus-life/student-life-overview.html"> Student Life </a>      
-            &nbsp;
-
-            <a href="/news.html"> News </a>
-            &nbsp;
-
-            <a href="https://www.ashesi.edu.gh/resources.html"> Resources </a>
-            &nbsp;
-
-            <a href="https://www.ashesi.org/donate/"> Donate </a> 
-            &nbsp;
-
-            <a href="#"><img src = "Elements/search-solid.svg" height= "30" width= "auto"></a>
-            
-
-        </div>
-           
-
-        <div width="100%" style="background-color:red">
-            <p style="text-align: center;color:white">Updates On Ashesi's COVID-19 Response</p>
-        </div>
-
-
-        <div>
-            <img src="./Elements/Ashesi_Annual_Report_2020_b.jpg" style="box-sizing: border-box; width: 100%;">
-
-            <div style="position: absolute; left: 30%; bottom: 10px; color: white; font-size: 30px; text-align: center;">Setting a global standard for leadership in action:<br>read Ashesi's 2020 Annual Report</div>
-
-        </div>
-
-        <br>
-
-        <div style="text-align: center;">
-            <h1>Our mission is to educate ethical,<br>entrepreneurial leaders in Africa;</h1>
-            <p>to cultivate within students, the critical thinking skills, the concern<br> for others, and the courage it will take to transform the continent.</p>
-        </div>
-            
-        <div>
-            <h2 style="text-align: center;">Where do you see yourself at Ashesi?</h2>
-
-            <div style="text-align: center;">
-                <a href="https://www.ashesi.edu.gh/admissions/welcome.html" style="left: 15%;"><img src="/Elements/Ashesi_Campus_2-min.jpg" height="150" width="auto">APPLY TO BE A STUDENT</a>
-
-                <a href="https://www.ashesi.edu.gh/about/job-openings.html" style="right: 15%;"><img src="/Elements/Ashesi_Graduation_7-min.jpg" height="150" width="auto">PURSUE A CAREER AT ASHESI</a>
+                <small id='usernameError'></small>
             </div>
 
-        </div>
+            <div class="form-control">
 
-        <div width="100%" style="background-color: #767676" style="height: 170;">
-            <h1>GENDER BALANCE</h1>
-        </div>
+                <label for="email">Email</label>
+                <input type="text" placeholder="Enter Email" id="email">
 
-    </nav>
+                <small id='emailError'></small>
+            </div>
 
-  
-<footer width="100%" style="background-color:#404041; color: whitesmoke">
+            <div class="form-control">
 
-    <h2>Quick Links</h2>
-    
-    <div>
+                <label for="password">Password</label>
+                <input type="password" placeholder="Enter password" id="password">
 
+                <small id='passwordError'></small>
+            </div>
 
-        <div>
-            <h1>
-                University </h1>
-            <ul>
-                <li><a href="" style="color: white; text-decoration: none;"> Webmail</a></li>
-                <li><a href="" style="color: white; text-decoration: none;"> Student Information System</a></li>
-                <li><a href="" style="color: white; text-decoration: none;"> Academic Calendar</a></li>
-                <li><a href="" style="color: white; text-decoration: none;"> Institutional Repository</a></li>
-            </ul>
-        </div>
-        
-        <div style="text-align: justify; left: 30%; right: 30%;">
+            <div class="form-control">
+
+                <label for="password2">Confirm Password</label>
+                <input type="password" placeholder="Confirm Your Password" id="password2">
+
+                <small id='password2Error'></small>
+            </div>
             
-            <h1>
-                New Here? </h1>
-            <ul>
-                <li><a href="" style="color: white; text-decoration: none;"> Our Campus</a></li>
-                <li><a href="" style="color: white; text-decoration: none;"> Alumni Stories</a></li>
-                <li><a href="" style="color: white; text-decoration: none;"> Campus Life Blog</a></li>
-                <li><a href="" style="color: white; text-decoration: none;"> Awards & Recognition</a></li>
-            </ul>
-        
-        </div>
+            <small id='success'></small>
+            <button type="submit" id='submitBtn'>Submit</button>
+        </form>   
+    </div>
     
-        <div>
-            <h1>
-                For Businesses </h1>
-            <ul>
-                <li><a href=""  style="color: white; text-decoration: none;"> Career Services Office</a></li>
-                <li><a href="" style="color: white; text-decoration: none;"> Recruit Ashesi Students</a></li>
-                <li><a href="" style="color: white; text-decoration: none;"> Job Openings</a></li>
-                <li><a href="" style="color: white; text-decoration: none;"> Support Ashesi </a></li>
-            </ul>
-        </div>
-
-        <div>
-            <input type = text> 
-             <button>Subscribe</button>  
-             <div>
-            <i class="fa fa-facebook"></i>
-            <i class="fa fa-twitter"></i>
-            <i class="fa fa-youtube"></i>
-            <i class="fa fa-linkedin"></i>
-            <i class="fa fa-instagram"></i>
-            <i class="fa fa-email"></i>
-        
-
-    </div>
-
-
-
-    <h2>Contact Us</h2>
-    <div>
-        
-        <div>
-            <h1>
-                Street Address </h1>
-            <ul>
-                <li><a href="" style="color: white; text-decoration: none;"> 1 University Avenue,</a></li>
-                <li><a href="" style="color: white; text-decoration: none;"> Berekuso, E/R (See Map Here)</a></li>
-                
-            </ul>
-        </div>
-         
-
-
-        <div>
-            <h1>
-                Postal Address </h1>
-            <ul>
-                <li><a href="" style="color: white; text-decoration: none;"> PMB CT3,</a></li>
-                <li><a href="" style="color: white; text-decoration: none;">Cantonments, Accra.</a></li>
-                
-            </ul>
-        </div>
-
-
-
-        <div>
-            <h1>
-                Phone & Email </h1>
-            <ul>
-                <li><a href="" style="color: white; text-decoration: none;"> (T) +233 302 610 330</a></li>
-                <li><a href="" style="color: white; text-decoration: none;"> (E) info@ashesi.edu.gh</a></li>
-              
-            </ul>
-        </div>
-
-
-        <div>
-            <h1>
-                See Also </h1>
-            <ul>
-                <li><a href="" style="color: white; text-decoration: none;"> + Ashesi Foundation </a></li>
-                <li><a href="" style="color: white; text-decoration: none;"> + Climate Innovation Centre </a></li>
-                <li><a href="" style="color: white; text-decoration: none;"> + Education Collaborative </a></li>
-                
-            </ul>
-        </div>
-
-        <div>
-            
-             
-           </ii>
-       </ul>
-       <p>
-           <img  src = "https://www.ashesi.edu.gh/images/footer-logo.jpg"
-                 height ="150"
-                 width = "150"
-           />
-       </p>
-       <p>
-         © Ashesi University. Est. 2002.  All rights reserved
-       </p>
-       <p>
-           <a href="https://www.ashesi.edu.gh/site-policies.html"
-              style = "text-decoration: none;color:white"
-           >
-              Site Policies
-           </a> |
-           <a href ="https://www.ashesi.edu.gh/component/osmap/?view=html&id=1"
-           style = "text-decoration: none;color:white"
-           >
-               Site Map
-   
-           </a>
-       </p>
-           </div>
-
-
-
-
-
-
-    </div>
-
-
-
-
-
-</footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    
+    <script src="./script.js"></script>
 </body>
 </html>

@@ -1,0 +1,286 @@
+*{
+
+    border: auto;
+    margin: 0;
+    max-width: 100%;
+    padding: 0;
+}
+
+#heading {
+    font-family: Lato;
+    color: lightgray;
+    font-size: 24pt;
+    font-weight: 400;
+    
+
+}
+.main{
+    width: 100%;
+}
+
+.menubar{
+    padding-left: 200px;
+    padding-block: 15px;
+
+    text-align: center;
+}
+
+.menubar .buttons {
+    list-style-type: none;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+}
+
+.menubar .buttons li {
+    display: inline-block;
+
+    font-family: Lato;
+    font-weight: 570;
+
+    margin-left: 0.30cm;
+    margin-right: 0.30cm;
+}
+
+.menubar .buttons a {
+    text-emphasis: none;
+    text-decoration: none;
+    color: #404041;
+
+}
+
+.menubar .buttons #active {
+    text-decoration: underline;
+    text-decoration-color: #aa3c40;
+}
+
+.menubar #logo {
+    height:25px;
+    width: auto; 
+}
+
+.menubar #searchIcon {
+    width: 20px;
+    height: auto;
+    color: #404041;
+}
+
+
+.submenubar{
+    padding-left: 65px;
+    padding-block: 15px;
+
+    background-color: #404041;
+    text-align: left;
+}
+
+.submenubar .buttons2 {
+    list-style-type: none;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+}
+
+.submenubar .buttons2 #nes {
+    font-weight: 550;
+    font-size: 20px;
+    margin-right: 80px;
+}
+
+.submenubar .buttons2 li {
+    display: inline-block;
+
+    font-family: Lato;
+    font-weight: 570;
+
+    margin-left: 0.12cm;
+    margin-right: 0.12cm;
+}
+
+.submenubar .buttons2 a {
+    text-emphasis: none;
+    text-decoration: none;
+    color: #fff;
+
+}
+
+
+
+.article {
+    font-family: Lato;
+    text-align: left;
+    
+    margin: auto;
+    width: 40%;
+    
+    line-height: 30px;
+    font-size: 20px;
+}
+
+#articleHeading {
+    font-size: 40px;
+    margin-top: 40px;
+    line-height: 50px;
+}
+
+#cite {
+    font-weight: 100;
+    font-style: italic;
+
+    color: gray;
+}
+
+
+
+
+
+
+
+#subhead {
+    font-family: Lato;
+    color: white;
+    font-size: 15pt;
+    font-weight: 400;
+
+}
+
+#footer {
+    font-family: Lato, sans-serif;
+    background-color: #404041;
+    color: #fff;
+    font-size: 10.5pt;
+    width: 100%;
+    padding-left: 200px;
+    border: none;
+
+    padding-top: 40px;
+    padding-left: 400px;
+    padding-right: 400px;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#readButton {
+    
+    font-size: 20px;
+    /* align-items: center;  */
+    background-color: #aa3c40; 
+    color: white;
+    padding: 12px;
+    /* padding-left: 400px;
+    padding-right: 400px; */
+    text-align: center;
+    width: 100%;
+    border: none;
+    border-radius: 0.3em;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: none;
+}
+
+.link1 { 
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+
+    
+
+}
+
+
+.container1{
+    margin-right: 30px ;
+
+}
+
+.link2 { 
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+
+}
+
+.container2{
+    margin-right: 30px ;
+
+}
+
+.link3 { 
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+
+    
+
+}
+
+
+.container3{
+    margin-right: 30px;
+}
+
+
+
+/* Responsiveness */
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+    .mainall{
+        background-color:white;
+    }
+    .article {
+        width: 80%;
+        
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+    .mainall{
+        background-color:white;
+
+    }
+    .article {
+        width: 70%;
+        
+    }
+    
+
+ }
+
+ /* // Large devices (desktops, 992px and up) */
+@media (max-width: 992px) { 
+    .mainall{
+        background-color:white;
+    }
+    .article {
+        width: 60%;
+        
+    }
+ }
+
+ /* // X-Large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) { 
+    .mainall{
+        background-color:white;
+    }
+ }
+
+ /* // XX-Large devices (larger desktops, 1400px and up) */
+@media (max-width: 1400px) { 
+    .mainall{
+        background-color:white;
+    }
+    .article {
+        width:50%;
+        
+    }
+ }
